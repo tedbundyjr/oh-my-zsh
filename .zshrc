@@ -52,7 +52,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(git brew composer common-aliases gitfast git-extras git-flow jsontools laravel4 last-working-dir osx screen sudo web-search catimg z)
+plugins=(git brew brew-cask composer common-aliases gitfast git-extras git-flow jsontools laravel4 last-working-dir osx screen sudo web-search catimg z)
 
 # User configuration
 
