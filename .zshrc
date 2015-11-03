@@ -1,7 +1,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/tedbundyjr/.oh-my-zsh
 
-# Enabling global dotfiles aliases
+ #Enabling global dotfiles aliases
 source ~/Developments/dotfiles/.aliases
 
 # Enabling personal dotfiles aliases
@@ -52,7 +52,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(git brew brew-cask composer common-aliases gitfast git-extras git-flow jsontools laravel4 last-working-dir osx screen sudo web-search catimg z)
+plugins=(git brew brew-cask composer common-aliases gitfast git-extras git-flow jsontools laravel4 last-working-dir osx screen sudo web-search catimg z bower cake nmap)
 
 # User configuration
 
@@ -85,3 +85,4 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export PATH="/usr/local/sbin:$PATH"
