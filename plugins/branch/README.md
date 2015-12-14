@@ -14,8 +14,8 @@ $ time hg branch
 ### Branch plugin
 
 ```shell
-$ time sh /tmp/branch_prompt_info.sh
-0.01s user 0.01s system 81% cpu 0.018 total
+$ time zsh /tmp/branch_prompt_info_test.zsh
+0.00s user 0.01s system 78% cpu 0.014 total
 ```
 
 ## Usage
