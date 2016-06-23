@@ -52,7 +52,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins
-plugins=(git brew brew-cask composer common-aliases gitfast git-extras git-flow jsontools laravel4 last-working-dir osx screen sudo web-search catimg z bower cake nmap vagrant)
+plugins=(docker git brew brew-cask composer common-aliases gitfast git-extras git-flow jsontools laravel4 last-working-dir osx screen sudo web-search catimg z bower cake nmap vagrant tmux)
 
 # User configuration
 
@@ -86,3 +86,16 @@ export SSH_KEY_PATH="~/.ssh/dsa_id"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="/usr/local/sbin:$PATH"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# Set variables in .zshrc file
+
+# don't forget to change your path correctly!
+
+export GOPATH=$HOME/golang
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+
+alias ss='stree . && subl .'
