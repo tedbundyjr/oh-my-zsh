@@ -2,10 +2,10 @@
 export ZSH=/Users/tedbundyjr/.oh-my-zsh
 
  #Enabling global dotfiles aliases
-source ~/Developments/dotfiles/.aliases
+#source ~/Developments/dotfiles/.aliases
 
 # Enabling personal dotfiles aliases
-source ~/Developments/dotfiles/oh-my-zsh/aliases.sh
+#source ~/Developments/dotfiles/oh-my-zsh/aliases.sh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
