@@ -98,15 +98,16 @@ brew 'trash'
 brew 'tree'
 brew 'unixodbc'
 brew 'utf8proc'
+brew 'watch'
 brew 'wget'
 brew 'youtube-dl'
 brew 'homebrew/dupes/zlib'
 brew 'homebrew/apache/httpd24'
-brew 'homebrew/php/php56', args: ['with-apache', 'with-homebrew-curl']
+brew 'homebrew/php/php56', args: ['with-homebrew-curl', 'with-httpd24']
 brew 'homebrew/php/composer'
 brew 'homebrew/php/igbinary'
 brew 'homebrew/php/libsphinxclient'
-brew 'homebrew/php/php55', args: ['with-apache']
+brew 'homebrew/php/php55', args: ['with-httpd24']
 brew 'homebrew/php/php55-imagick'
 brew 'homebrew/php/php55-intl'
 brew 'homebrew/php/php55-mcrypt'
@@ -121,11 +122,11 @@ brew 'homebrew/php/php56-pcntl'
 brew 'homebrew/php/php56-redis'
 brew 'homebrew/php/php56-xcache'
 brew 'homebrew/php/php56-xdebug'
-brew 'homebrew/php/php70', args: ['with-apache']
+brew 'homebrew/php/php70', args: ['with-httpd24']
 brew 'homebrew/php/php70-intl'
 brew 'homebrew/php/php70-mcrypt'
 brew 'homebrew/php/php70-redis'
-brew 'homebrew/php/php71', args: ['with-apache']
+brew 'homebrew/php/php71', args: ['with-httpd24']
 brew 'homebrew/php/php71-intl'
 brew 'homebrew/php/php71-mcrypt'
 brew 'homebrew/php/php71-redis'
@@ -147,6 +148,8 @@ cask 'controlplane'
 cask 'copyq'
 cask 'cyberduck'
 cask 'diffmerge'
+cask 'diskmaker-x'
+cask 'docker'
 cask 'doubletwist'
 cask 'dropbox'
 cask 'duet'
